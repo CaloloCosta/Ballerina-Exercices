@@ -1,0 +1,10 @@
+[2019-08-21 14:38:26,946] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Remote client closed the connection before initiating outbound response  
+[2019-08-21 15:15:35,121] ERROR {org.ballerinalang.net.http.BallerinaHTTPConnectorListener} - Error in HTTP server connector: Remote client closed the connection before initiating outbound response  
+[2019-08-26 20:00:52,404] ERROR {org.ballerinalang.launcher.Main} - null 
+java.lang.NullPointerException
+	at org.ballerinalang.launcher.LauncherUtils.runProgram(LauncherUtils.java:103)
+	at org.ballerinalang.launcher.Main$RunCmd.execute(Main.java:267)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+ 
+[2019-08-26 20:04:13,722] ERROR {org.ballerinalang.net.http.HttpUtil} - {ballerina/mime}MIMEError:Error occurred while extracting json data from entity: unrecognized token 'no' at line: 1 column: 4  
